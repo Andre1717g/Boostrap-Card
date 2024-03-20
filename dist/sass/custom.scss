@@ -1,0 +1,36 @@
+$primary: #666f88;
+$success: #733fc8;
+$warning: #eff2f6;
+$danger: #18171c;
+
+$font-family-sans-serif: "Barlow Semi Condesed", sans-serif;
+
+@media (min-width: 992px) {
+    .alto-100 {
+        height: 100vh;
+    }
+}
+
+.fondo-card{
+    background-image: url("../img/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 85% top;
+
+
+
+    
+}
+
+
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 960px,
+    xxl: 960px
+  );
+
+  
+
+@import "../node_modules/bootstrap/scss/bootstrap";
